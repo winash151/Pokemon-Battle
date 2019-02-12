@@ -1,0 +1,51 @@
+package engine.moves.flying;
+
+import engine.InBattlePokemon;
+import engine.moves.Move;
+
+public class Roost extends FlyingMove {
+
+	/**
+	 * id 282
+	 * status move
+	 * pp 10
+	 */
+	public Roost() {
+		super(355, Move.STATUS, 10, "Roost");
+		setBlockedByProtect(false);
+		setNeedsTarget(false);
+		setDescription("The user lands and rests its body. It restores the user’s HP by up to half of its max HP.");
+	}
+
+	/**
+	 * can always hit
+	 */
+	public boolean willHit(InBattlePokemon user, InBattlePokemon target) {
+		return true;
+	}
+
+	/**
+	 * heal back hp
+	 */
+	public void implementSoloStatus(InBattlePokemon user, InBattlePokemon target) {
+
+		System.out.println(user.getCurrentHP() + "recover");
+		if(user.getCurrentHP()==user.getTotalHP()){
+			user.getDisplay().consolePrintln(user.getName() + "'s HP is already full.");
+		}
+		else{
+			System.out.println("clear so half back");
+			user.increaseHP(user.getTotalHP() / 2);
+			user.getDisplay().consolePrintln(user.getName() + " regained health.");
+			user.setRoosting(true);
+		}
+		System.out.println(user.getName() + "'s current health is "
+				+ user.getCurrentHP() + "/" + user.getTotalHP() + ".");
+	}
+
+	@Override
+	public Move newInstance() {
+		return new Roost();
+	}
+
+}
