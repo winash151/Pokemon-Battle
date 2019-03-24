@@ -2,7 +2,7 @@
 
 https://drive.google.com/drive/folders/1titpE6fRzRv---01G4ec4KzG4VGejn3G?usp=sharing
 
-Use above link to download Server and Client.
+Use the above link to download Server and Client.
 
 This should work on Local Host without any additional configuration. Across computers on the same network or across the Internet, you will need to use port forwarding.
 This game uses port 23492.
