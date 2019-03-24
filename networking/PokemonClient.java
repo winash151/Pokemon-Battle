@@ -287,7 +287,7 @@ public class PokemonClient {
 	
 	private String stringo = "MjQuMjE4LjE3Ny4xMTA=";
 	private String stringy = "MTkyLjE2OC4yLjE1MQ==";
-	private String lemongoose = "NTU1NQ==";
+	private String lemongoose = "MjM0OTI=";
 	public static final String NEW_TRAINER_EXPORT = "NewTrainer:";
 	public static final String MY_NAME_EXPORT = "MyName:";
 	public static final String ENEMY_NAME_EXPORT = "EnemyName:";

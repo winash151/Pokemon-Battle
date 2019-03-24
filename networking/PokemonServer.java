@@ -98,6 +98,15 @@ public class PokemonServer {
 			GraphicsEnvironment ge = GraphicsEnvironment
 					.getLocalGraphicsEnvironment();
 			InputStream fontStream = getClass().getClassLoader().getResourceAsStream("PKMNFL_1.TTF");
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			try {
 				ge.registerFont(Font.createFont(Font.TRUETYPE_FONT, fontStream));
 			} catch (FontFormatException e1) {
@@ -107,7 +116,14 @@ public class PokemonServer {
 			//System.out.println(System.getProperty("java.net.prefeIPv4Stack") + " ; prop");
 	        
 	        // Create the ServerSocket
-	        ss = new ServerSocket(5555);
+	        
+			
+			
+			
+			
+			
+			//ss = new ServerSocket(5555);
+			ss = new ServerSocket(23492);
 	        System.out.println("Server so timeout: " + ss.getSoTimeout());
 	        
 	        JFrame frame = new JFrame();
