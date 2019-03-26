@@ -14,3 +14,11 @@ Then run OnlinePokemonClient.jar. A dialogue will ask for your name and then for
 Then the rest should be straight forward.
 
 You can scroll on a mouse wheel or with two fingers on a touchpad to increase/decrease the screen size.
+
+![Screenshot](https://raw.githubusercontent.com/winash151/Pokemon-Battle/master/Screenshots/pokemon%20server.JPG)<br/>
+![Screenshot](https://raw.githubusercontent.com/winash151/Pokemon-Battle/master/Screenshots/your%20name.JPG)<br/>
+![Screenshot](https://raw.githubusercontent.com/winash151/Pokemon-Battle/master/Screenshots/opponent%20name.JPG)<br/>
+![Screenshot](https://raw.githubusercontent.com/winash151/Pokemon-Battle/master/Screenshots/host%20address.JPG)<br/>
+![Screenshot](https://raw.githubusercontent.com/winash151/Pokemon-Battle/master/Screenshots/pokemon%20selection.JPG)<br/>
+![Screenshot](https://raw.githubusercontent.com/winash151/Pokemon-Battle/master/Screenshots/onix%20player.JPG)<br/>
+![Screenshot](https://raw.githubusercontent.com/winash151/Pokemon-Battle/master/Screenshots/charizard%20player.JPG)<br/>
